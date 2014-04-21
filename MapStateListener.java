@@ -33,7 +33,7 @@ public abstract class MapStateListener {
             }
         });
 
-        touchableMapFragment.setTouchListener(new TouchableMapFragment.OnTouchListener() {
+        touchableMapFragment.setTouchListener(new TouchableWrapper.OnTouchListener() {
             @Override
             public void onTouch() {
                 touchMap();
