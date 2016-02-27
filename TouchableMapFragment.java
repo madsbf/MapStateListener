@@ -5,9 +5,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.google.android.gms.maps.MapFragment;
+import com.google.android.gms.maps.SupportMapFragment;
 
-public class TouchableMapFragment extends MapFragment {
+public class TouchableMapFragment extends SupportMapFragment {
 
     private View mOriginalContentView;
     private TouchableWrapper mTouchView;
