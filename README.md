@@ -1,3 +1,5 @@
+## Obsolete! Use the new Google Maps API instead: https://developers.google.com/maps/documentation/android-api/events#camera-change-events
+
 MapStateListener
 ================
 
